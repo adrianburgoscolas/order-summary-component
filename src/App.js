@@ -19,8 +19,8 @@ function App() {
             <section id='plan' className='flex p-4 my-5 md:my-0 md:p-7 rounded-xl'>
               <img id='logo' src={planlogo} alt='Plan logo'/>
               <div id='plan-text' className='px-5'>
-                <div id='plan-header' className='text-sm font-extrabold md:text-base'>Annual Plan</div>
-                <div id='plan-price' className='font-bold '>$59.99/year</div>
+                <h2 id='plan-header' className='text-sm font-extrabold md:text-base'>Annual Plan</h2>
+                <p id='plan-price' className='font-bold '>$59.99/year</p>
               </div>
               <div id='plan-change' className='self-center flex-auto font-bold text-right underline transition-colors'><a href='#plan-change'>Change</a></div>
             </section>
