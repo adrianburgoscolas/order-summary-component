@@ -6,11 +6,11 @@ function App() {
   return (
     <div>
       <div className="flex flex-col items-center justify-center h-screen overflow-scroll App">
-        <div id='card' className="overflow-hidden rounded-3xl">
+        <main id='card' className="overflow-hidden rounded-3xl">
 
           <img className='rounded-none' src={illustration} alt="Audio content." />
 
-          <main id='card-content' className="flex flex-col p-6 md:p-12">
+          <article id='card-content' className="flex flex-col p-6 md:p-12">
             <header className='p-2 font-extrabold text-center md:p-0 md:text-3xl' id="header-text"><h1>Order Summary</h1></header>
             <p id='content-text' className='p-2 text-center md:p-5 md:font-bold '>
               You can now listen to millions of songs, audiobooks, and podcasts on
@@ -27,7 +27,7 @@ function App() {
             <button id='payment' className='block p-3 md:p-3.5 my-2 md:my-7 rounded-xl font-bold transition-colors'>Proceed to Payment</button>
 
             <button id='cancel' className='block mt-4 font-extrabold transition-colors md:mt-0'>Cancel Order</button>
-          </main><br />
+          </article><br />
 
           <footer className='absolute pl-2 m-auto text-xs md:pl-5 md:text-base' id='app-footer'>
           Challenge by{" "}
@@ -49,7 +49,7 @@ function App() {
           .
         </footer>
           
-        </div>
+        </main>
         
       </div>
     </div>  
