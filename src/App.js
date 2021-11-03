@@ -5,7 +5,8 @@ import planlogo from "./images/icon-music.svg"
 function App() {
   return (
     <div>
-      <div className="flex flex-col items-center justify-center h-screen overflow-scroll App">
+      <div className="flex flex-col items-center justify-center h-screen App">
+        
         <main id='card' className="overflow-hidden rounded-3xl">
 
           <img className='rounded-none' src={illustration} alt="Audio content." />
@@ -50,9 +51,9 @@ function App() {
         </footer>
           
         </main>
-        
       </div>
-    </div>  
+    </div>
+     
   );
 }
 

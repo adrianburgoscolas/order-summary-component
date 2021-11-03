@@ -4,6 +4,9 @@
     height:700px;
     box-shadow: 0 25px 50px -12px hsl(225, 90%, 85%);
 }
+body{
+    background-color: hsl(225, 100%, 94%);
+}
 @media(max-width:768px){
     #card{
         height: 568px;
@@ -23,19 +26,28 @@
         font-size: 13px;
     }
     .App{
-    
-        background-size: 640px auto ;
-        background-position: top;
+        background: url('pattern-background-mobile.svg') no-repeat;
+        background-size: contain;
+        background-color: hsl(225, 100%, 94%);
     }
+}
+body{
+    background: url('pattern-background-desktop.svg') no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
 }
 .App{
   margin: 0;
   font-family: 'Red Hat Display', sans-serif;
-  background-image: url('pattern-background-desktop.svg');
-  background-repeat: no-repeat;
-  background-color: hsl(225, 100%, 94%);
+  
+  min-width: 340px;
+  min-height: 700px;
+  
 }
-
+footer{
+    min-width: 340px;
+    min-height: 700px; 
+}
 #plan{
     background-color: hsl(225, 100%, 98%);
 }
