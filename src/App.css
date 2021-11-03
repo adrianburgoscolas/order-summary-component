@@ -1,4 +1,42 @@
-
-/* .dropdown:hover .dropdownmenu{
-    display: block;
-} */
+#card{
+    background-color: white;
+    width: 450px;
+    height:700px;
+    box-shadow: 0 25px 50px -12px hsl(225, 90%, 85%);
+}
+.App{
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  background-image: url('pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  
+}
+#plan{
+    background-color: hsl(225, 100%, 98%);
+}
+footer,#content-text,#plan-text,#cancel{
+    color: hsl(224, 23%, 55%);
+}
+#payment{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    box-shadow: 0 25px 45px -13px hsl(245, 75%, 73%);
+}
+#plan-header,#header-text{
+    color: hsl(223, 47%, 23%);
+}
+#plan-change{
+    color:  hsl(245, 75%, 52%);
+}
+#cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+#payment:hover{
+    background-color: rgba(118,108,241,255);
+}
+#plan-change:hover{
+    text-decoration: none;
+    color: rgba(118,108,241,255);
+}
