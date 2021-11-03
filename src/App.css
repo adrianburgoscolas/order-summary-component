@@ -4,6 +4,25 @@
     height:700px;
     box-shadow: 0 25px 50px -12px hsl(225, 90%, 85%);
 }
+@media(max-width:768px){
+    #card{
+        height: 568px;
+        width: 320px;
+    }
+    #header-text{
+        font-size: 22px;
+    }
+    #content-text{
+        font-size: 15px;
+        
+    }
+    #plan-price{
+        font-size: 14px;
+    }
+    #plan-change{
+        font-size: 13px;
+    }
+}
 .App{
   margin: 0;
   font-family: 'Red Hat Display', sans-serif;
